@@ -1,0 +1,6 @@
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: 홈
+  categories: 카테고리
+  tags: 태그
