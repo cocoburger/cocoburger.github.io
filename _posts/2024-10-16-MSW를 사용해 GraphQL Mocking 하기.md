@@ -111,13 +111,14 @@ export const handlers = [
   graphql.query('GetUser', (req) => {
     const { first = 5, after } = req.variables
     const start = after ? parseInt(after, 10) + 1 : 0
-    const data = generateUserList(start, first)
+    const data = generateUser(start, first)
     return HttpResponse.json({
       data: {
-        reserveList: {
+        user: {
           id: data.databaseId,
           name: data.expertName,
-          age: data.age,
+          email: data.email,
+          posts: data.posts,
           pageInfo: {
             hasNextPage: data.pageInfo.hasNextPage,
             endCursor: data.pageInfo.endCursor,
