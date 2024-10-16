@@ -130,7 +130,7 @@ order: 4
 개발 관련 질문이나 의견이 있으시면 언제든 연락 주세요.
 서로의 경험을 나누면서 함께 성장할 수 있길 바랍니다.
 
-[GitHub](https://github.com/cocoburger) | [Twitter](https://twitter.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourusername)
+[GitHub](https://github.com/cocoburger){:target="_blank" rel="noopener noreferrer"} | [Twitter](https://twitter.com/yourusername){:target="_blank" rel="noopener noreferrer"} | [LinkedIn](https://linkedin.com/in/yourusername){:target="_blank" rel="noopener noreferrer"}
 
 > "버그는 디버깅의 기회다!"
 {: .prompt-info }
