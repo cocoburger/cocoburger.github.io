@@ -338,6 +338,8 @@ const useProductsCursorPagination = (pageSize) => {
     loadNextPage
   };
 };
+```
+```jsx
 
 
 import React, { useEffect } from 'react';
@@ -356,8 +358,8 @@ const ProductListWithCursorPagination = ({ pageSize = 10 }) => { // pageSize pro
     loadInitialProducts();
   }, []);
 
-  if (loading) return <p>Loading products...</p>; 
-  if (error) return <p>Error : {error.message}</p>;  
+  if (loading) return <p>Loading products...</p>
+  if (error) return <p>Error : {error.message}</p>
 
   return (
     <div>
@@ -383,7 +385,9 @@ const ProductListWithCursorPagination = ({ pageSize = 10 }) => { // pageSize pro
 };
 
 export default ProductListWithCursorPagination;
+
 ```
+
 
 > **설명:**
 > - cursor가 있는 경우 URL에 파라미터로 추가하여 API 요청을 보냅니다.
